@@ -41,3 +41,4 @@ elif len(sys.argv) == 3:
     calendar.prmonth(int(sys.argv[2]), int(sys.argv[1]))
 else:
     print('enter the month and year')
+print(calendar)
