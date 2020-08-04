@@ -29,11 +29,16 @@ for i, v in enumerate(nums):
 # Use platform.system() if you don't believe the other sources.
 
 
-# returns 'nt': 'nt' means you are running on windows, and 'posix' mac
-print("os.name is: ", os.name)
-print("sys.platform is: ", sys.platform)  # returns win32
-print("platform.system()", platform.system())  # returns Windows
-# print("python version using: ", sys.version)
-# print("current process ID: ", os.getpid())
-# print("current working directory: ", os.getcwd())
-# print("machine's login name: ", os.getlogin())
+# # returns 'nt': 'nt' means you are running on windows, and 'posix' mac
+# print("os.name is: ", os.name)
+# print("sys.platform is: ", sys.platform)  # returns win32
+# print("platform.system()", platform.system())  # returns Windows
+# # print("python version using: ", sys.version)
+# # print("current process ID: ", os.getpid())
+# # print("current working directory: ", os.getcwd())
+# # print("machine's login name: ", os.getlogin())
+
+
+name = input("what is your name?")
+
+print("hello " + name)
