@@ -17,3 +17,8 @@ print('{z} I would like to have {x} turtles every {y} years'.format(
     z="I like turtles!", x=10, y=2.24552))
 # Finally, print the same thing using an f-string
 print(f'{z} I would like to have {x} turtles every {y} years')
+
+# string modulo operator
+print('%d %s cost $%.2f' % (6, 'bananas', 1.74))
+# python string .format()
+print('{0} {1} cost ${2}'.format(6, 'bananas', 1.74))

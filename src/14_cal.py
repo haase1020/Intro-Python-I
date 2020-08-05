@@ -33,7 +33,7 @@ from datetime import datetime
 
 now = datetime.now()
 
-if len(sys.argv) == 1:
+if (len(sys.argv) == 1):
     calendar.prmonth(now.year, now.month)
 elif len(sys.argv) == 2:
     calendar.prmonth(now.year, int(sys.argv[1]))
@@ -41,4 +41,3 @@ elif len(sys.argv) == 3:
     calendar.prmonth(int(sys.argv[2]), int(sys.argv[1]))
 else:
     print('enter the month and year')
-print(calendar)

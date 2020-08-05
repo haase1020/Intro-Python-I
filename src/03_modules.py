@@ -30,7 +30,7 @@ while (arguments >= position):
 
 # # Print the current process ID
 # # YOUR CODE HERE
-# print("current process ID: ", os.getpid())
+print("current process ID: ", os.getpid())
 # # Print the current working directory (cwd):
 # # YOUR CODE HERE
 # print("current working directory: ", os.getcwd())
