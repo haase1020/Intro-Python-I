@@ -15,23 +15,23 @@ a = [2, 4, 1, 7, 9, 6]
 print("#1", a[1:2])
 
 # Output the second-to-last element: 9
-print(a[4:5])
+print("#2", a[4:5])
 
 # Output the last three elements in the array: [7, 9, 6]
-print(a[3:6])
+print("#3", a[3:6])
 
 # Output the two middle elements in the array: [1, 7]
-print(a[2:4])
+print("#4", a[2:4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
-print(a[1:])
+print("#5", a[1:])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
-print(a[:5])
+print("#6", a[:-1])
 
 # For string s...
 
 s = "Hello, world!"
 
 # Output just the 8th-12th characters: "world"
-print(s[7:12])
+print("#7", s[7:12])

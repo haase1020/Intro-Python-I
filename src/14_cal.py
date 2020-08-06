@@ -31,6 +31,9 @@ import sys
 import calendar
 from datetime import datetime
 
+
+print("sys.argv", sys.argv)  # shows the file name / this is from sys module
+
 now = datetime.now()
 
 if (len(sys.argv) == 1):
